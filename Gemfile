@@ -10,6 +10,7 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'bcrypt'
+gem 'email_validator'  
 gem 'tux'
 
 group :test do

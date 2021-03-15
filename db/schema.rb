@@ -24,11 +24,11 @@ ActiveRecord::Schema.define(version: 2021_03_09_001526) do
   end
 
   create_table "patients", force: :cascade do |t|
+    t.string "email"
     t.string "name"
-    t.string "cheese"
     t.string "gender"
     t.string "age"
-    t.integer "patient_id"
+    t.string "password_digest"
   end
 
 end
